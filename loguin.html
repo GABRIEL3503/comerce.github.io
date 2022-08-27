@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loguin</title>
+</head>
+<body>
+    <div class="formulario">
+        <main class="container formuarios ">
+            <div class="cadastro-cabecalho">
+                <img src="./assets/logo.png" alt="Logo Doguito" class="registry-header__logo">
+
+            </div>
+            <section class="card_form">
+                <h2 class="card__title">Iniciar Sesión</h2>
+                <form action="./registro_concluido.html" class="formulario flex flex--column">
+                    <fieldset>
+                        <div class="input-container">
+                            <input name="email" id="email" class="input" type="email" placeholder="Email" required
+                                data-tipo="email">
+                            <label class="input-label" for="email">Email</label>
+                            <span class="input-message-error"></span>
+                        </div>
+                        <div class="input-container">
+                            <input name="password" id="password" class="input" type="password" placeholder="Contraseña"
+                                required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$"
+                                title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales."
+                                data-tipo="password">
+                            <label class="input-label" for="password">Contraseña</label>
+                            <span class="input-message-error"></span>
+                        </div>
+                    </fieldset>
+                    <button class="log registrar">Registrar</a>
+                </form>
+            </section>
+        </main>
+    </div>
+    <section class="rodapie">
+        <h4 class="rodapie"> Diseñado por <strong>Gabriel Medina</strong> 2022</h4>
+    </section>
+    
+</body>
+
+
+</html>

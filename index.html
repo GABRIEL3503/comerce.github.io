@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href=".css">
+
+
+
+
+    <title>Alura Geek</title>
+</head>
+
+
+<body class="app">
+
+    <header class="encabezado">
+        <div class="container">
+            <a href="#"><img  src="assets/logo.png" class="logo_nav" alt="logo header"></a>
+            <div class="button-buscar">
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+                    <input class="buscar" type="text" placeholder="Que desea buscar?.." name="search2">
+                    <button class="buscar" type="submit"><i> <img class="buscar" src="assets/search-alt-2-regular-24.png" alt=""></i></button>
+                </form>
+
+            </div>
+            <a class="log loguin" href="./loguin.html"><img src="assets/log-in-circle-regular-24.png" alt=""> Loguin </a>
+        </div>
+    </header>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/Hero.png" alt="" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Descuentos 20%</h3>
+                    <p>Para desarroladores!</p>
+                    <a href="#descuentos"> <button class="log">Ver Descuentos</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/Hero.png" alt="" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Marzo</h3>
+                    <p>Cumplimos años y te traemos regalos</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/Diseño sin título.png" alt="" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Somos los numero uno en ventas</h3>
+                    <p>Garantia asegurada</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- destacados-->
+    <section class="categoria" id="destacados">
+        <div class="texto-categoria">
+            <h2>Destacados</h2>
+            <a href=""><img src="assets/log-in-circle-regular-24.png"> Ver todo </a>
+        </div>
+        <div class="productos">
+           <div class="tarjeta" datos-productos>
+           </div>
+                <!--  <img src="/assets/brawl-stars.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+             <div class="card">
+                <img src="/assets/cs-go.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+        </div> -->
+    </section>
+            <!--<div class="card">
+                <img src="/assets/cs-go.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/fortnite.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/free-fire.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/whatsapp.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+        </div>
+    </section>
+<!-- descuentos-->
+  <!--  <section class="categoria" id="decuentos">
+        <div class="texto-categoria">
+            <h2>Descuentos</h2>
+            <a href=""> Ver todo<img src=""> </a>
+        </div>
+        <div class="productos">
+            <div class="card">
+                <img src="/assets/gta-v.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/lol.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/cs-go.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/mario-kart.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/onefotball.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/trello.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+        </div>
+    </section>
+<!-- mas vendidos-->
+  <section class="categoria" id="mas vendidos">
+        <div class="texto-categoria">
+            <h2>Mas vendidos</h2>
+            <a href=""> Ver todo<img src=""> </a>
+        </div>
+        <div class="productos">
+            <div class="card">
+                <img src="/assets/organizze.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            
+            <div class="card">
+                <img src="/assets/cs-go.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/gta-v.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/lol.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/cs-go.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/mario-kart.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/onefotball.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/onefotball.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/trello.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/pubg.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/skype.png" alt="">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/slack.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+            <div class="card">
+                <img src="/assets/telegram.png">
+                <h3>Producto XYZ</h3>
+                <p>$60,00</p>
+                <a href=""> Ver producto </a>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="logo">
+            <li>
+                <a class="logo" href="#">
+                    <img class="logo_footer" src="assets/logo.png" alt="Logo ">
+                </a>
+            </li>
+        </div>
+
+        <section class="links_footer">
+            <nav class="rodapePrincipal-navMap-list sobre_nosotros">
+
+                <h4 class="navmap-list-title navmap-list-title-backend">Información</h4>
+
+                <a class="navMap-link" href="#">Quienes Somos</a>
+                <a class="navMap-link" href="#">Formas de Pago</a>
+                <a class="navMap-link" href="#">Preguntas Frecuentes</a>
+                <a class="navMap-link" href="#">Redes Sociales</a>
+
+
+            </nav>
+        </section>
+
+        <div class="formulari">
+            <form class="rodapePrincipal-contatoForm" action="#">
+                <section class="card-form cadastro">
+                    <h1 class="card__title">Contactanos</h1>
+                    <form action="#" class="flex flex--column">
+                        <div class="input-container">
+                            <input name="nombre" id="nombre" class="input" type="text" placeholder="nombre" />
+                            <label class="input-label" for="nombre">nombre</label>
+                            <span class="input-menssage-error">Error</span>
+                        </div>
+                        <div class="
+                            textarea-container textarea-container-- invalido
+                            register_description-container
+                          ">
+                            <textarea class="textarea register_description" name="description" id="description"
+                                placeholder="Descripcion"></textarea>
+                            <label class="textarea-label" for="description">Escriba su mensaje</label>
+                            <span class="textarea-menssage-error">Error</span>
+                        </div>
+                        <a href="#" class="log send">Enviar</a>
+                    </form>
+                </section>
+            </form>
+        </div>
+        </div>
+        </section>
+    </footer>
+    <script type="module" src="controllers/productos-controller.js"></script>
+<script type="module" src="services/productos-servicios.js"></script>
+</body>
+<section class="rodapie">
+    <h4 class="rodapie"> Diseñado por <strong>Gabriel Medina</strong> 2022</h4>
+</section>
+
+</html>

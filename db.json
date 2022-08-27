@@ -1,0 +1,64 @@
+{
+    "producto": [
+        {
+            "name": "esoo",
+            "imageUrl": "/assets/brawl-stars.png",
+            "price": "$0015",
+            "id": 1,
+            "alt": "Product",
+            "section": "destacadoss",
+            "description": "blablablabla"
+        },
+        {
+            "name": "esoo",
+            "imageUrl": "/assets/brawl-stars.png",
+            "price": "$0015",
+            "id": 2,
+            "alt": "Product",
+            "section": "destacadoss",
+            "description": "blablablabla"
+        },
+        {
+            "name": "Batman",
+            "imageUrl": "/assets/fortnite.png",
+            "price": "$3185",
+            "description": "poster",
+            "id": 3
+        },
+        {
+            "name": "Batman",
+            "imageUrl": "/assets/fortnite.png",
+            "price": "$3185",
+            "description": "poster",
+            "id": 4
+        },
+        {
+            "name": "Batman",
+            "imageUrl": "/assets/fortnite.png",
+            "price": "$3185",
+            "description": "poster",
+            "id": 4
+        },
+        {
+            "name": "Batman",
+            "imageUrl": "/assets/fortnite.png",
+            "price": "$3185",
+            "description": "poster",
+            "id": 4
+        },
+        {
+            "name": "Batman",
+            "imageUrl": "/assets/fortnite.png",
+            "price": "$3185",
+            "description": "poster",
+            "id": 4
+        },
+        {
+            "name": "Batman",
+            "imageUrl": "/assets/fortnite.png",
+            "price": "$3185",
+            "description": "poster",
+            "id": 4
+        }
+    ]
+}

@@ -1,0 +1,455 @@
+:root {
+
+  --raleway: 'raleway';
+  --hover-color:#00ab23;
+  --button-color:#10c059;;
+  --fuente: 'Roboto Condensed', sans-serif;
+  --fuente-productos-azul: #2A7AE4;
+}
+body{
+  font-family: var(--raleway);
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.app {
+  background: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*section header*/
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.encabezado {
+  margin-top: 8px;
+}
+
+form.example input[type=text] {
+  border-radius: 9px 0px 0px 11px;
+  padding: 5px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background-color: var(--button-color);
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 9px 9px 0px;
+}
+
+.example {
+  width: 58vh;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.log {
+  font-family: var(--fuente);
+  text-align: center;
+  text-decoration: none;
+  outline: 0;
+  border: 1px solid #4DBA7A;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 5px;
+
+  background-color:var(--button-color);
+  color: #FFF;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.logo_nav {
+  max-width: 17vh;
+}
+form.example button:hover{
+  background-color: var(--hover-color);
+  border: solid 1px;
+}
+.loguin:hover{
+  background-color: var(--hover-color);
+  color: white;
+  border: solid 1px;
+border-color: rgb(95, 177, 57);
+}
+.send:hover{
+  background-color:var(--hover-color);
+  color: white;
+  border: solid 1px;
+border-color: rgb(95, 177, 57);
+}
+/*section banner*/
+.carousel-inner {
+  margin-top: 15px;
+}
+
+.banner_img {
+  width: 100%;
+}
+
+
+/*fprmulario de ingrso*/
+
+.formulario {
+  border-radius: 14px;
+  padding: 31px;
+  background-color: rgb(241, 239, 239);
+
+}
+.registrar{
+  margin-left: 12px;
+}
+
+.cadastro-cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 1rem;
+}
+
+.registry-header__logo {
+  width: 2.625rem;
+  margin-bottom: 0.5rem;
+}
+
+.registry-header__title {
+  font-family: var(--font-family-logo);
+  font-size: var(--font-size-logo);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 800px) {
+  .registry-header__logo {
+    width: 5.75rem;
+    margin-bottom: 1rem;
+  }
+
+
+}
+
+.registry-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.registry-card__icon-complete {
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+
+  margin-bottom: 1rem;
+
+  background-image: url(../img/checkmark.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  font-weight: 700;
+  text-align: center;
+  
+
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.formuarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.card_form {
+  background-color: lightgreen;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 45rem;
+  padding: 1.75rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+.footer {
+  background-color: rgb(231, 231, 231);
+ 
+  padding: 33px 0px;
+  justify-content: space-around;
+  display: flex;
+  padding-top: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.navMap-link:hover {
+  text-decoration: underline;
+  color: #00ab23;
+}
+
+.navMap-link {
+  text-decoration: none;
+  padding: 5px;
+  color: #56645b;
+  border-left: 4px solid #00ab23;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.sobre_nosotros {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulari {
+  width: 40%;
+}
+
+
+/*-------*/
+.card-form {
+  background-color: var(--contrast-ligth-color);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 45rem;
+  padding: 1.75rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.card__title {
+  font-family: var(--fuente);
+  font-size: 33px;
+  margin-bottom: 1rem;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+
+.formulario {
+  margin-top: 2rem;
+}
+
+.formulario__legenda {
+  font-size: var(--font-size-form-fieldset);
+
+  margin-bottom: 1rem;
+}
+
+.input-container {
+  font-weight: var(--font-input);
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.input {
+  border: none;
+  border-radius: 7px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--secundary-color);
+  padding: 1.375rem 0.5rem 0.5rem;
+  height: 3.25rem;
+  width: 100%;
+}
+
+.input::placeholder {
+  visibility: hidden;
+  color: #00000000;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input-label {
+  position: absolute;
+  top: 1.375rem;
+  left: 0.5rem;
+  font-size: var(--font-size-input-label);
+
+  transition: all 0.25s;
+}
+
+fieldset {
+  border: none;
+}
+
+.input:not(:placeholder-shown)+.input-label,
+.input:focus+.input-label {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+
+.input-container--invalido {
+  margin-bottom: 0.5rem;
+}
+
+.input-container--invalido .input {
+  border: 1px solid var(--info-color);
+  border-radius: 7px;
+}
+
+.input-container--invalido .input-label {
+  color: var(--info-color);
+}
+
+.input-menssage-error {
+  display: none;
+}
+
+.input-container--invalido .input-menssage-error {
+  color: var(--info-color);
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.textarea {
+  box-sizing: border-box;
+  border: 1px solid var(--secundary-color);
+  padding: 0.5rem;
+  border-radius: 7px;
+  width: 100%;
+  min-height: 3rem;
+}
+
+.textarea-container {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: var(--font-input);
+}
+
+.textarea::placeholder {
+  visibility: hidden;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.textarea-label {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-size: 18px;
+  transition: all 0.25s;
+}
+
+.textarea:not(:placeholder-shown)+.textarea-label,
+.textarea:focus+.textarea-label {
+  font-size: 0.875rem;
+  top: -1.25rem;
+  transition: all 0.25s;
+}
+
+.textarea-container--invalido {
+  margin-bottom: 0.5rem;
+}
+
+.textarea-container--invalido .textarea {
+  border: 1px solid var(--info-color);
+}
+
+.textarea-container--invalido .textarea-label {
+  color: var(--info-color);
+}
+
+.textarea-menssage-error {
+  display: none;
+}
+
+.textarea-container--invalido .textarea-menssage-error {
+  display: block;
+  color: var(--info-color);
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/*rodapie*/
+.rodapie {
+ 
+  padding: 7px;
+  text-align: center;
+  font-size: 17px;
+
+}
+.logo_footer{
+  max-width: 25vh;
+}
+.navmap-list-title{
+margin-bottom: 6px;
+color: #00ab23;
+font-weight: 600;
+
+}
+
+
+@media(min-width:320px) and (max-width:768px) {
+  .productos {
+    background-color: #0b7dda;
+  }
+  .logo_nav {
+    max-width: 9vh;
+}
+form.example input[type=text] {
+  width: 50%;
+}
+.encabezado .log{
+  margin-right: 89px;
+}
+.carousel-caption {
+  font-size: 9px;
+  }
+
+
+
+}
